@@ -1213,7 +1213,7 @@ int main(int argc, const char **argv)
         if(!meta->parentP)
         {
             ERR("Failed to find parent of %s (m: " ADDR ", p: " ADDR ")", meta->name, meta->addr, meta->parent);
-            return -1;
+            // return -1;
         }
     }
     for(size_t i = 0; i < metas.idx; ++i)
